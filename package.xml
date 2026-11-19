@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- SPDX-License-Identifier: MIT -->
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+
+  <name>PrintFlows</name>
+  <description>Send a design to printflows.org and get prices from 3D printing makers near you. Exports the selected solids (or all visible ones) as 3MF or STL in millimetres, uploads them after you allow it once, and opens the page in your browser. Free; not affiliated with the FreeCAD project.</description>
+  <version>1.0.0</version>
+  <date>2026-11-13</date>
+
+  <maintainer email="support@printflows.org">PrintFlows</maintainer>
+  <license file="LICENSE">MIT</license>
+
+  <url type="repository" branch="main">https://github.com/printflows/freecad-printflows</url>
+  <url type="bugtracker">https://github.com/printflows/freecad-printflows/issues</url>
+  <url type="readme">https://github.com/printflows/freecad-printflows/blob/main/README.md</url>
+  <url type="website">https://printflows.org</url>
+
+  <icon>freecad/PrintFlows/resources/icons/PrintFlows.svg</icon>
+
+  <!-- 1.0.0: first FreeCAD whose official builds ship Python 3.11, the oldest the shared client supports. -->
+  <freecadmin>1.0.0</freecadmin>
+  <pythonmin>3.11</pythonmin>
+
+  <tag>3D printing</tag>
+  <tag>export</tag>
+  <tag>3MF</tag>
+  <tag>STL</tag>
+  <tag>manufacturing</tag>
+
+  <content>
+    <workbench>
+      <classname>PrintFlowsWorkbench</classname>
+    </workbench>
+  </content>
+
+</package>

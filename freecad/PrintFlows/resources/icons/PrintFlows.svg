@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 512 512">
+  <title>PrintFlows</title>
+  <path fill="#12736b" d="M113 0H399C449.85 0 512 62.15 512 113V399C512 449.85 449.85 512 399 512H113C62.15 512 0 449.85 0 399V113C0 62.15 62.15 0 113 0Z"/>
+  <g fill="#ffffff" transform="translate(81.2 79.8) scale(5.462)">
+    <path fill-rule="evenodd" d="M25 40C22 36 17 30 17 21A15 15 0 0 1 47 21C47 30 42 36 39 40ZM37 21A5 5 0 1 0 27 21A5 5 0 1 0 37 21Z"/>
+    <path d="M27 41.6H37L34.2 47H29.8Z"/>
+    <path d="M16 48.5H31.5A2 2 0 0 1 33.5 50.5V50.5A2 2 0 0 1 31.5 52.5H16A2 2 0 0 1 14 50.5V50.5A2 2 0 0 1 16 48.5Z"/>
+    <path d="M14 54.5H50A2 2 0 0 1 52 56.5V56.5A2 2 0 0 1 50 58.5H14A2 2 0 0 1 12 56.5V56.5A2 2 0 0 1 14 54.5Z"/>
+  </g>
+</svg>

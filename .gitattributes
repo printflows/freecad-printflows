@@ -1,0 +1,5 @@
+# Text files are checked out with LF on every machine, so the vendored client keeps the
+# bytes its pinned sha256 in build.py was taken over.
+* text=auto eol=lf
+*.png binary
+*.zip binary
